@@ -47,26 +47,10 @@ export default function GameSetup({ startAbsiMatch }) {
           {/* معلومات الألعاب */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 max-w-4xl">
             {/* المباراة الكاملة */}
-            <div className="bg-slate-800/50 backdrop-blur-lg rounded-xl p-4 border border-slate-600">
-              <h3 className="text-lg font-bold text-purple-400 mb-2">🏆 المباراة الكاملة</h3>
-              <ul className="text-slate-300 text-sm space-y-1">
-                <li>• لايفات عبسي</li>
-                <li>• الاختيارات</li>
-                <li>• ولا كلمة (QR)</li>
-                <li>• وسائل المساعدة</li>
-              </ul>
-            </div>
+    
 
             {/* فقرة من أسرع */}
-            <div className="bg-slate-800/50 backdrop-blur-lg rounded-xl p-4 border border-slate-600">
-              <h3 className="text-lg font-bold text-orange-400 mb-2">🏃‍♂️ فقرة من أسرع</h3>
-              <ul className="text-slate-300 text-sm space-y-1">
-                <li>• 6 أسئلة سريعة</li>
-                <li>• لعب مع صديق</li>
-                <li>• من يجيب أولاً يفوز</li>
-                <li>• مباشر أونلاين</li>
-              </ul>
-            </div>
+     
           </div>
         </div>
       </div>

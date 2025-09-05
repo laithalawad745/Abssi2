@@ -100,7 +100,7 @@ export default function JoinRoom({
         <p className="text-slate-300 mb-4">في انتظار المضيف لبدء اللعبة...</p>
         <p className="text-slate-400 text-sm">رقم الغرفة: {roomId}</p>
         
-     
+  
       </div>
     </div>
   );
