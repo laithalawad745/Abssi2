@@ -100,11 +100,7 @@ export default function JoinRoom({
         <p className="text-slate-300 mb-4">في انتظار المضيف لبدء اللعبة...</p>
         <p className="text-slate-400 text-sm">رقم الغرفة: {roomId}</p>
         
-        <div className="mt-6 pt-4 border-t border-slate-600">
-          <p className="text-slate-400 text-xs">
-            💡 فقرة من أسرع: 6 أسئلة - من يجيب أولاً يحصل على النقاط
-          </p>
-        </div>
+     
       </div>
     </div>
   );

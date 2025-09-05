@@ -3,50 +3,62 @@
 export const fastestQuestions = [
   {
     id: 'fastest1',
-    question: 'كم حمار بالصورة؟',
-    answer: '1',
-    points: 100,
-    hasImage: true,
-    imageUrl: '../../4.jpg'
+    question: 'ما هو أكبر كوكب في المجموعة الشمسية؟',
+    answer: 'المشتري',
+    points: 100
   },
   {
     id: 'fastest2', 
-    question: 'ماذا قال عبسي؟',
-    answer: 'بدك حرية ولا',
-    points: 100,
-    hasImage: true,
-    imageUrl: '../../3.jpg'
+    question: 'كم عدد قارات العالم؟',
+    answer: 'سبع قارات',
+    points: 100
   },
   {
     id: 'fastest3',
-    question: 'لماذا كان عبسي معصب؟',
-    answer: 'هو خسر نهائي البطولة و برشلونة فاز',
-    points: 100,
-    hasImage: true,
-    imageUrl: '../../26.jpg'
+    question: 'ما هو أطول نهر في العالم؟',
+    answer: 'نهر النيل',
+    points: 100
   },
   {
     id: 'fastest4',
-    question: 'ابن من كان يهدد عبسي؟',
-    answer: 'ابن بلال الجوابرة',
-    points: 100,
-    hasImage: true,
-    imageUrl: '../../5.jpg'
+    question: 'من هو أول من صعد إلى القمر؟',
+    answer: 'نيل أرمسترونغ',
+    points: 100
   },
   {
     id: 'fastest5',
-    question: 'من كان يعطيهم الألوان؟',
-    answer: 'معاليك',
-    points: 100,
-    hasImage: true,
-    imageUrl: '../../6.jpg'
+    question: 'ما هي أكبر دولة في العالم من حيث المساحة؟',
+    answer: 'روسيا',
+    points: 100
   },
   {
     id: 'fastest6',
-    question: 'من كان صاحب النصيب؟',
-    answer: 'زلوم',
-    points: 100,
-    hasImage: true,
-    imageUrl: '../../7.jpg'
+    question: 'ما هو العنصر الكيميائي الذي يرمز له بالرمز "O"؟',
+    answer: 'الأوكسجين',
+    points: 100
+  },
+  {
+    id: 'fastest7',
+    question: 'من هو مؤلف رواية "مئة عام من العزلة"؟',
+    answer: 'غابرييل غارسيا ماركيز',
+    points: 100
+  },
+  {
+    id: 'fastest8',
+    question: 'ما هو الحيوان الذي يلقب بملك الغابة؟',
+    answer: 'الأسد',
+    points: 100
+  },
+  {
+    id: 'fastest9',
+    question: 'ما هو أسرع حيوان بري؟',
+    answer: 'الفهد',
+    points: 100
+  },
+  {
+    id: 'fastest10',
+    question: 'ما هي عاصمة اليابان؟',
+    answer: 'طوكيو',
+    points: 100
   }
 ];

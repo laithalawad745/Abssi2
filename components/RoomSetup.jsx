@@ -126,7 +126,6 @@ export default function RoomSetup({
   // نسخ رقم الغرفة
   const copyRoomId = () => {
     navigator.clipboard.writeText(roomId);
-    alert('تم نسخ رقم الغرفة!');
   };
 
   // بدء اللعبة
@@ -316,9 +315,7 @@ export default function RoomSetup({
           </div>
         )}
 
-        <div className="mt-6 pt-4 border-t border-slate-600">
-          <p className="text-slate-400 text-xs">6 أسئلة - من يجيب أولاً يحصل على النقاط</p>
-        </div>
+
       </div>
     </div>
   );

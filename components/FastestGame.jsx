@@ -280,7 +280,7 @@ export default function FastestGame({
                   الوقت: {countdown}s
                 </p>
               )}
-              <p className="text-slate-400 text-xs">الطور: {gamePhase}</p>
+              {/* <p className="text-slate-400 text-xs">الطور: {gamePhase}</p> */}
             </div>
             <div className="text-center">
               <p className="text-white font-bold">نقاط الخصم: {gameScores[opponentId]}</p>
@@ -324,7 +324,7 @@ export default function FastestGame({
                       : 'bg-gray-600 text-gray-400 cursor-not-allowed'
                   }`}
                 >
-                  أجيب أولاً! 🏃‍♂️
+                  أجيب أولاً
                 </button>
               )}
 
@@ -335,7 +335,7 @@ export default function FastestGame({
                     <div>
                       <p className="text-green-400 font-bold text-xl mb-4">✅ أنت تجيب الآن!</p>
                       <p className="text-yellow-400 font-bold text-lg mb-4">وقتك للإجابة: {countdown} ثانية</p>
-                      <p className="text-slate-300">اعطِ إجابتك شفهياً الآن...</p>
+                      <p className="text-slate-300">اعطِ إجابتك  الآن...</p>
                     </div>
                   ) : (
                     <div>
@@ -396,7 +396,7 @@ export default function FastestGame({
                     <div>
                       <p className="text-green-400 font-bold text-xl mb-4">✅ أنت تجيب الآن!</p>
                       <p className="text-yellow-400 font-bold text-lg mb-4">وقتك للإجابة: {countdown} ثانية</p>
-                      <p className="text-slate-300">اعطِ إجابتك شفهياً الآن...</p>
+                      <p className="text-slate-300">اعطِ إجابتك  الآن...</p>
                     </div>
                   ) : (
                     <div>
@@ -424,7 +424,7 @@ export default function FastestGame({
                         onClick={() => awardPoints(firstAnswerer)}
                         className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-6 py-3 rounded-xl font-bold shadow-lg transition-all duration-300"
                       >
-                        {firstAnswerer === playerId ? 'أنت' : 'الخصم'} (أجاب أولاً) ✅
+                        {firstAnswerer === playerId ? 'أنت' : 'الخصم'} 
                       </button>
                     )}
                     
@@ -433,7 +433,7 @@ export default function FastestGame({
                         onClick={() => awardPoints(secondAnswerer)}
                         className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white px-6 py-3 rounded-xl font-bold shadow-lg transition-all duration-300"
                       >
-                        {secondAnswerer === playerId ? 'أنت' : 'الخصم'} (أجاب ثانياً) ✅
+                        {secondAnswerer === playerId ? 'أنت' : 'الخصم'} 
                       </button>
                     )}
                     
